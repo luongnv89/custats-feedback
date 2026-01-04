@@ -1,0 +1,61 @@
+name: Feedback
+description: Share general feedback about CUStats
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We'd love to hear your thoughts! Share your experience with CUStats.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Feedback Type
+      description: What kind of feedback is this?
+      options:
+        - General Experience
+        - User Interface / Design
+        - Performance
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sentiment
+    attributes:
+      label: Overall Sentiment
+      description: How do you feel about CUStats?
+      options:
+        - Positive
+        - Neutral
+        - Needs Improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your Feedback
+      description: Tell us what's on your mind
+      placeholder: "I think..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions
+      description: Any specific suggestions for improvement?
+    validations:
+      required: false
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version (optional)
+      description: "Find this in CUStats > About tab"
+      placeholder: "1.4.0"
+    validations:
+      required: false

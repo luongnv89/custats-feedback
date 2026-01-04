@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#FDF7F5"/>
+  <circle cx="64" cy="64" r="60" stroke="#D97358" stroke-width="2"/>
+
+  <!-- Bar chart representing usage -->
+  <rect x="28" y="72" width="16" height="28" rx="3" fill="#40B89A"/>
+  <rect x="48" y="52" width="16" height="48" rx="3" fill="#F2AD61"/>
+  <rect x="68" y="36" width="16" height="64" rx="3" fill="#D97358"/>
+  <rect x="88" y="56" width="16" height="44" rx="3" fill="#E66B5B"/>
+
+  <!-- Sparkle/Claude indicator -->
+  <path d="M64 24L66.5 29.5L72 32L66.5 34.5L64 40L61.5 34.5L56 32L61.5 29.5L64 24Z" fill="#D97358"/>
+
+  <!-- Small progress indicator dots at top -->
+  <circle cx="40" cy="20" r="3" fill="#40B89A"/>
+  <circle cx="52" cy="20" r="3" fill="#F2AD61"/>
+  <circle cx="64" cy="20" r="3" fill="#D97358"/>
+</svg>
