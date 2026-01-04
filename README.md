@@ -22,7 +22,7 @@ CUStats lives in your macOS menubar and shows your Claude AI usage in real-time:
 
 ## Download
 
-[![Download on the Mac App Store](https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg)](https://apps.apple.com/us/app/custats/id6756333957?mt=12)
+[![Download on the Mac App Store](https://img.shields.io/badge/Download_on_the-Mac_App_Store-black?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/custats/id6756333957?mt=12)
 
 ## Links
 
