@@ -52,50 +52,6 @@ Major rebrand and UI overhaul focused on Claude usage monitoring.
 
 ---
 
-## [1.2.0] - 2024-12-15
-
-**Dashboard & Analytics Release**
-
-### New Features
-- **Claude Code Integration** - Local log stats support
-- **Scheduled Session Triggers** - Automatic usage refresh
-- **Sessions Tab** - Dedicated full-width data table
-- **Period Filtering** - Tool usage filtering in Overview dashboard
-- **Demo Mode Enhancement** - Simulate dashboard data
-
-### Improvements
-- Session window time calculation fixes
-- Expanded unit test coverage
-
----
-
-## [1.1.0] - 2024-12-10
-
-**Enhanced Statistics Release**
-
-### New Features
-- **Demo Mode** - Animated usage cycling for preview
-- **Marketing Landing Page** - App Store preparation
-- **GDPR Consent** - Cookie consent and eligibility flow
-- **Redeem Codes** - Free signup promotion support
-
-### Improvements
-- Value-focused marketing messaging
-- Unit test suite with 81 tests
-
-### Fixes
-- Handle null resetsAt in API response
-
----
-
-## [1.0.1] - 2024-12-05
-
-### Fixes
-- Handle null resetsAt in API response
-- Added debug logging for troubleshooting
-
----
-
 ## [1.0.0] - 2024-12-01
 
 **Initial Release**
@@ -111,6 +67,11 @@ First public release of CUStats (formerly Claude Usage Status / Claude Monitor).
 - **Configurable Refresh** - Set interval from 10 seconds to 10 minutes
 - **Secure Storage** - Credentials encrypted with AES-GCM
 - **Native macOS App** - Built with SwiftUI
+- **Demo Mode** - Animated usage cycling for preview
+- **Claude Code Integration** - Local log stats support
+- **Scheduled Session Triggers** - Automatic usage refresh
+- **Sessions Tab** - Dedicated full-width data table
+- **Period Filtering** - Tool usage filtering in Overview dashboard
 
 ### Requirements
 - macOS 13.0 (Ventura) or later
