@@ -1,7 +1,7 @@
-name: Bug Report (macOS)
-description: Report a bug or issue with CUStats for macOS
-title: "[Bug][macOS]: "
-labels: ["bug", "macOS"]
+name: Bug Report (Android)
+description: Report a bug or issue with CUStats for Android
+title: "[Bug][Android]: "
+labels: ["bug", "Android"]
 body:
   - type: markdown
     attributes:
@@ -18,14 +18,23 @@ body:
       required: true
 
   - type: dropdown
-    id: macos-version
+    id: android-version
     attributes:
-      label: macOS Version
+      label: Android Version
       options:
-        - macOS 26 (Tahoe)
-        - macOS 15 (Sequoia)
-        - macOS 14 (Sonoma)
-        - macOS 13 (Ventura)
+        - Android 16
+        - Android 15
+        - Android 14
+        - Android 13
+        - Android 12
+    validations:
+      required: false
+
+  - type: input
+    id: device-model
+    attributes:
+      label: Device Model
+      placeholder: "Samsung Galaxy S24"
     validations:
       required: false
 

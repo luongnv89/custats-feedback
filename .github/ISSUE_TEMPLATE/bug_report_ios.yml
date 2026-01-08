@@ -1,7 +1,7 @@
-name: Bug Report (macOS)
-description: Report a bug or issue with CUStats for macOS
-title: "[Bug][macOS]: "
-labels: ["bug", "macOS"]
+name: Bug Report (iOS)
+description: Report a bug or issue with CUStats for iOS
+title: "[Bug][iOS]: "
+labels: ["bug", "iOS"]
 body:
   - type: markdown
     attributes:
@@ -18,14 +18,22 @@ body:
       required: true
 
   - type: dropdown
-    id: macos-version
+    id: ios-version
     attributes:
-      label: macOS Version
+      label: iOS Version
       options:
-        - macOS 26 (Tahoe)
-        - macOS 15 (Sequoia)
-        - macOS 14 (Sonoma)
-        - macOS 13 (Ventura)
+        - iOS 19
+        - iOS 18
+        - iOS 17
+        - iOS 16
+    validations:
+      required: false
+
+  - type: input
+    id: device-model
+    attributes:
+      label: Device Model
+      placeholder: "iPhone 15 Pro"
     validations:
       required: false
 
