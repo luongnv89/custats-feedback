@@ -32,6 +32,8 @@ CUStats lives in your macOS menubar and shows your Claude AI usage in real-time:
 
 ## How to Report Issues
 
+You can track the plan and the progress of the development [here](https://github.com/users/luongnv89/projects/2)
+
 ### Bug Report
 Found a bug? [Create a bug report](../../issues/new?template=bug_report.yml) with:
 - Your app and macOS version
