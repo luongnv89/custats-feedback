@@ -36,6 +36,19 @@ body:
       required: false
 
   - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform is this feature request for?
+      options:
+        - macOS
+        - iOS
+        - Android
+        - All platforms
+    validations:
+      required: true
+
+  - type: dropdown
     id: area
     attributes:
       label: Feature Area
@@ -49,6 +62,15 @@ body:
         - Other
     validations:
       required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: "Find this in CUStats > About tab"
+      placeholder: "1.5.0"
+    validations:
+      required: false
 
   - type: textarea
     id: additional
