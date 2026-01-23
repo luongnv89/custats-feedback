@@ -22,10 +22,13 @@ body:
     attributes:
       label: iOS Version
       options:
-        - iOS 19
+        - iOS 26
         - iOS 18
         - iOS 17
         - iOS 16
+        - iOS 15
+        - Older version
+        - Not sure
     validations:
       required: false
 

@@ -22,11 +22,15 @@ body:
     attributes:
       label: Android Version
       options:
-        - Android 16
-        - Android 15
-        - Android 14
-        - Android 13
-        - Android 12
+        - Android 16 (Baklava)
+        - Android 15 (Vanilla Ice Cream)
+        - Android 14 (Upside Down Cake)
+        - Android 13 (Tiramisu)
+        - Android 12 (Snow Cone)
+        - Android 11
+        - Android 10
+        - Older version
+        - Not sure
     validations:
       required: false
 

@@ -9,6 +9,46 @@ body:
         We'd love to hear your thoughts! Share your experience with CUStats.
 
   - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using?
+      options:
+        - macOS
+        - iOS
+        - Android
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os-version
+    attributes:
+      label: OS Version
+      description: What version of your operating system are you using?
+      options:
+        - macOS 26 (Tahoe)
+        - macOS 15 (Sequoia)
+        - macOS 14 (Sonoma)
+        - macOS 13 (Ventura)
+        - macOS 12 (Monterey)
+        - iOS 26
+        - iOS 18
+        - iOS 17
+        - iOS 16
+        - iOS 15
+        - Android 16 (Baklava)
+        - Android 15 (Vanilla Ice Cream)
+        - Android 14 (Upside Down Cake)
+        - Android 13 (Tiramisu)
+        - Android 12 (Snow Cone)
+        - Android 11
+        - Android 10
+        - Older version
+        - Not sure
+    validations:
+      required: false
+
+  - type: dropdown
     id: type
     attributes:
       label: Feedback Type
