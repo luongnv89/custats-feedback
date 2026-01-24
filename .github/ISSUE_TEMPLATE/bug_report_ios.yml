@@ -8,6 +8,17 @@ body:
       value: |
         Thanks for reporting a bug! Tell us what went wrong.
 
+  - type: dropdown
+    id: account-type
+    attributes:
+      label: Account Type
+      description: Which account are you experiencing issues with?
+      options:
+        - Claude (claude.ai)
+        - OpenAI Codex
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:

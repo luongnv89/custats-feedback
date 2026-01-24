@@ -8,6 +8,18 @@ body:
       value: |
         Thanks for suggesting a feature! Please describe your idea below.
 
+  - type: dropdown
+    id: account-type
+    attributes:
+      label: Account Type
+      description: Which account is this feature request for?
+      options:
+        - Claude (claude.ai)
+        - OpenAI Codex
+        - Both
+    validations:
+      required: true
+
   - type: textarea
     id: problem
     attributes:

@@ -9,6 +9,17 @@ body:
         We'd love to hear your thoughts! Share your experience with CUStats.
 
   - type: dropdown
+    id: account-type
+    attributes:
+      label: Account Type
+      description: Which account are you providing feedback about?
+      options:
+        - Claude (claude.ai)
+        - OpenAI Codex
+    validations:
+      required: true
+
+  - type: dropdown
     id: platform
     attributes:
       label: Platform
